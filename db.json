@@ -1,13 +1,21 @@
 {
-    "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-    "name": "typicode"
+    "plats": [
+    {
+        "id": 1,
+        "name": "Gratin dauphinois",
+        "origine": "France",
+        "ingredients": ["pommes de terre", "crème fraîche","ail"],
+        "temps-prepa": "70 minutes",
+        "etapes": "préchauffer le four à 200 degrés Celsius, éplucher les pommes de terres, couper les pommes de terres en rondelles, deposer les pommes de terre dans un plat pour le four, verser la crème fraîche, éplucher l'ail, presser l'ail, mettre l'ail dans le plat, mélanger, mettre le plat au four",
+        "allergenes": ["lactose"]
+    },
+    {
+        "id": 2,
+        "name": "Choucroute",
+        "origine": "Chine",
+        "ingredients": ["choux blanc", "oignons","vin"],
+        "etapes": "bla-bla-bla, et bla-bla-bla,...",
+        "allergenes":["alcool"]
     }
+    ]
 }
