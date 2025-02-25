@@ -1,8 +1,26 @@
-<input
-  type="text"
-  (input)="onSearch($event)"
-  placeholder="Tapez pour rechercher..."
-/>
-<button (click)="validateSearch()">
-  <lucide-icon name="search"></lucide-icon>
-</button>
+<!-- <div class="container">
+  <div class="title"><h2>Trouvez votre recette du jour</h2></div>
+  <input
+    type="text"
+    (input)="onSearch($event)"
+    placeholder="Tapez pour rechercher..."
+  />
+  <button (click)="validateSearch()">
+    <lucide-icon name="search"></lucide-icon>
+  </button>
+</div> -->
+<div class="container">
+  <div class="title">
+    <h2>Trouvez votre recette du jour</h2>
+  </div>
+  <div class="input-button-wrapper">
+    <input
+      type="text"
+      (input)="onSearch($event)"
+      placeholder="Tapez pour rechercher..."
+    />
+    <button (click)="validateSearch()">
+      <lucide-icon name="search"></lucide-icon>
+    </button>
+  </div>
+</div>
