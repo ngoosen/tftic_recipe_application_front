@@ -1,39 +1,15 @@
-// .container {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: flex-end;
-//   margin-top: 250px;
-//   align-items: center;
-// }
-
-// .title {
-//   margin-bottom: 10px;
-// }
-// input {
-//   border-radius: 25px;
-//   margin-bottom: 0px;
-//   padding: 3px;
-//   width: 350px;
-// }
-
-// button {
-//   border-radius: 50%;
-//   background-color: #f7ad4c;
-//   border: 0;
-//   margin: 10px;
-//   margin-right: 55px;
-//   padding: 2px;
-//   cursor: pointer;
-// }
-// lucide-icon {
-//   color: white;
-// }
+@font-face {
+  font-family: "Chillen";
+  src: url("../../../public/font/Chillen.ttf"); /* Ajustez le chemin et le format si nécessaire */
+  font-weight: normal;
+  font-style: normal;
+}
 .container {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   margin-top: 150px;
-  background-image: url(../../../public/img/image.jfif);
+  background-image: url("../../../public/img/image.jfif");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
@@ -42,6 +18,12 @@
 .title {
   margin-top: 200px;
   margin-right: 55px;
+  font-family: "Chillen";
+}
+#name {
+  font-family: "Chillen";
+  font-weight: 400;
+  font-style: normal;
 }
 
 .input-button-wrapper {
@@ -66,7 +48,77 @@ button {
   padding: 2px;
   cursor: pointer;
 }
+.button-click {
+  transition: transform 0.1s ease-in-out;
+}
+
+.button-click:active {
+  transform: scale(0.95);
+}
+@keyframes click-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.button-click {
+  animation: click-animation 0.2s ease-in-out;
+}
 
 lucide-icon {
   color: white;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .container {
+    align-items: flex-end;
+    margin-top: 100px;
+
+    height: auto; /* Ajustez la hauteur pour les petits écrans */
+  }
+
+  .title {
+    margin-top: 50px;
+    margin-right: 50;
+    text-align: center;
+  }
+
+  .input-button-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+
+  input {
+    width: 100%; /* S'adapte à la largeur de l'écran */
+    max-width: 300px;
+  }
+
+  button {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin-top: 50px;
+  }
+
+  .title {
+    margin-top: 20px;
+    font-size: 1em; /* Ajustez la taille de la police pour les très petits écrans */
+  }
+
+  input {
+    max-width: 250px;
+  }
 }
