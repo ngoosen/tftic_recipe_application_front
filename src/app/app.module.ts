@@ -12,6 +12,7 @@ import {
   UserCheck,
   Search,
 } from 'lucide-angular';
+;
 
 @NgModule({
   declarations: [AppComponent, SearchBarComponent],

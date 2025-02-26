@@ -1,6 +1,9 @@
 <div class="container">
   <div class="title">
-    <h2 id="name">Trouvez votre recette du jour</h2>
+    <h2 id="name">
+      <span>Trouvez votre </span>
+      <span>recette du jour</span>
+    </h2>
   </div>
   <div class="input-button-wrapper">
     <input
@@ -9,7 +12,7 @@
       placeholder="Tapez pour rechercher..."
     />
     <button (click)="validateSearch()" class="button-click">
-      <lucide-icon name="search"></lucide-icon>
+      <lucide-icon name="search" [size]="18"></lucide-icon>
     </button>
   </div>
 </div>

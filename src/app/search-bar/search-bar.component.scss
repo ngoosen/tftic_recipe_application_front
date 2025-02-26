@@ -21,9 +21,18 @@
   font-family: "Chillen";
 }
 #name {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+span {
   font-family: "Chillen";
   font-weight: 400;
   font-style: normal;
+
+  &:nth-child(2) {
+    font-size: 50px;
+  }
 }
 
 .input-button-wrapper {
@@ -47,6 +56,8 @@ button {
   margin-left: 10px;
   padding: 2px;
   cursor: pointer;
+  width: 25px;
+  height: 25px;
 }
 .button-click {
   transition: transform 0.1s ease-in-out;
@@ -73,6 +84,9 @@ button {
 
 lucide-icon {
   color: white;
+  size: 64;
+  // height: 5px;
+  // width: 5px;
 }
 
 /* Media queries */
@@ -116,6 +130,17 @@ lucide-icon {
   .title {
     margin-top: 20px;
     font-size: 1em; /* Ajustez la taille de la police pour les très petits écrans */
+    margin-left: 150px;
+  }
+
+  span {
+    font-family: "Chillen";
+    font-weight: 300;
+    font-style: normal;
+
+    &:nth-child(2) {
+      font-size: 30px;
+    }
   }
 
   input {
