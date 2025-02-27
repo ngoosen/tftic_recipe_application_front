@@ -1,477 +1,624 @@
 {
-    "recettes": [
+  "recettes": [
     {
-        "id": 1,
-        "nom": "Spaghetti Bolognaise",
-        "slug": "spaghetti-bolognaise",
-        "tags": ["pâtes", "italien", "dîner"],
-        "origine": "Italie",
-        "regimeAlimentaire": {
+      "id": 1,
+      "nom": "Spaghetti Bolognaise",
+      "slug": "spaghetti-bolognaise",
+      "tags": ["pâtes", "italien", "dîner"],
+      "origine": "Italie",
+      "regimeAlimentaire": {
         "vegan": false,
         "vegetarien": false,
         "halal": true,
         "sansGluten": false,
         "sansLactose": false
-        },
-        "temps": {
+      },
+      "temps": {
         "preparation": 20,
         "cuisson": 45,
         "total": 65
-        },
-        "portions": 4,
-        "difficulte": "facile",
-        "imageUrl": "spaghetti-bolognaise.jpg",
-        "note": 4.8,
-        "ingredients": [
+      },
+      "portions": 4,
+      "difficulte": "facile",
+      "imageUrl": "spaghetti-bolognaise.jpg",
+      "note": 4.8,
+      "ingredients": [
         {
-            "id": 1,
-            "nom": "Bœuf haché",
-            "quantite": 500,
-            "unite": "g",
-            "allergene": false
-        },
-        {
-            "id": 2,
-            "nom": "Spaghetti",
-            "quantite": 400,
-            "unite": "g",
-            "allergene": true,
-            "typeAllergene": ["gluten"]
+          "id": 1,
+          "nom": "Bœuf haché",
+          "quantite": 500,
+          "unite": "g",
+          "allergene": false
         },
         {
-            "id": 3,
-            "nom": "Oignon",
-            "quantite": 1,
-            "unite": "moyen",
-            "allergene": false
+          "id": 2,
+          "nom": "Spaghetti",
+          "quantite": 400,
+          "unite": "g",
+          "allergene": true,
+          "typeAllergene": ["gluten"]
         },
         {
-            "id": 4,
-            "nom": "Ail",
-            "quantite": 2,
-            "unite": "gousses",
-            "allergene": false
+          "id": 3,
+          "nom": "Oignon",
+          "quantite": 1,
+          "unite": "moyen",
+          "allergene": false
         },
         {
-            "id": 5,
-            "nom": "Tomates en conserve",
-            "quantite": 400,
-            "unite": "g",
-            "allergene": false
+          "id": 4,
+          "nom": "Ail",
+          "quantite": 2,
+          "unite": "gousses",
+          "allergene": false
         },
         {
-            "id": 6,
-            "nom": "Concentré de tomate",
-            "quantite": 2,
-            "unite": "c. à soupe",
-            "allergene": false
+          "id": 5,
+          "nom": "Tomates en conserve",
+          "quantite": 400,
+          "unite": "g",
+          "allergene": false
         },
         {
-            "id": 7,
-            "nom": "Parmesan",
-            "quantite": 50,
-            "unite": "g",
-            "allergene": true,
-            "typeAllergene": ["lait"]
+          "id": 6,
+          "nom": "Concentré de tomate",
+          "quantite": 2,
+          "unite": "c. à soupe",
+          "allergene": false
         },
         {
-            "id": 8,
-            "nom": "Sel",
-            "quantite": 1,
-            "unite": "c. à café",
-            "allergene": false
+          "id": 7,
+          "nom": "Parmesan",
+          "quantite": 50,
+          "unite": "g",
+          "allergene": true,
+          "typeAllergene": ["lait"]
         },
         {
-            "id": 9,
-            "nom": "Poivre noir",
-            "quantite": 0.5,
-            "unite": "c. à café",
-            "allergene": false
+          "id": 8,
+          "nom": "Sel",
+          "quantite": 1,
+          "unite": "c. à café",
+          "allergene": false
         },
         {
-            "id": 10,
-            "nom": "Huile d'olive",
-            "quantite": 2,
-            "unite": "c. à soupe",
-            "allergene": false
+          "id": 9,
+          "nom": "Poivre noir",
+          "quantite": 0.5,
+          "unite": "c. à café",
+          "allergene": false
+        },
+        {
+          "id": 10,
+          "nom": "Huile d'olive",
+          "quantite": 2,
+          "unite": "c. à soupe",
+          "allergene": false
         }
-        ],
-        "ustensiles": [
+      ],
+      "ustensiles": [
         "Grande casserole",
         "Poêle à frire",
         "Cuillère en bois",
         "Couteau",
         "Planche à découper",
         "Passoire"
-        ],
-        "etapes": [
+      ],
+      "etapes": [
         {
-            "ordre": 1,
-            "description": "Faire chauffer l'huile d'olive dans une grande poêle à feu moyen.",
-            "imageUrl": "etape1.jpg"
+          "ordre": 1,
+          "description": "Faire chauffer l'huile d'olive dans une grande poêle à feu moyen.",
+          "imageUrl": "etape1.jpg"
         },
         {
-            "ordre": 2,
-            "description": "Ajouter l'oignon et l'ail hachés dans la poêle, faire revenir jusqu'à ce qu'ils soient tendres et translucides.",
-            "imageUrl": "etape2.jpg"
+          "ordre": 2,
+          "description": "Ajouter l'oignon et l'ail hachés dans la poêle, faire revenir jusqu'à ce qu'ils soient tendres et translucides.",
+          "imageUrl": "etape2.jpg"
         },
         {
-            "ordre": 3,
-            "description": "Ajouter le bœuf haché et cuire jusqu'à ce qu'il soit doré.",
-            "imageUrl": "etape3.jpg"
+          "ordre": 3,
+          "description": "Ajouter le bœuf haché et cuire jusqu'à ce qu'il soit doré.",
+          "imageUrl": "etape3.jpg"
         },
         {
-            "ordre": 4,
-            "description": "Ajouter les tomates en conserve et le concentré de tomate, assaisonner avec du sel et du poivre.",
-            "imageUrl": "etape4.jpg"
+          "ordre": 4,
+          "description": "Ajouter les tomates en conserve et le concentré de tomate, assaisonner avec du sel et du poivre.",
+          "imageUrl": "etape4.jpg"
         },
         {
-            "ordre": 5,
-            "description": "Laisser mijoter à feu doux pendant 30 minutes, en remuant de temps en temps.",
-            "imageUrl": "etape5.jpg"
+          "ordre": 5,
+          "description": "Laisser mijoter à feu doux pendant 30 minutes, en remuant de temps en temps.",
+          "imageUrl": "etape5.jpg"
         },
         {
-            "ordre": 6,
-            "description": "Pendant que la sauce mijote, cuire les spaghettis dans une grande casserole d'eau salée bouillante selon les instructions du paquet.",
-            "imageUrl": "etape6.jpg"
+          "ordre": 6,
+          "description": "Pendant que la sauce mijote, cuire les spaghettis dans une grande casserole d'eau salée bouillante selon les instructions du paquet.",
+          "imageUrl": "etape6.jpg"
         },
         {
-            "ordre": 7,
-            "description": "Égoutter les pâtes et servir avec la sauce bolognaise et du parmesan râpé.",
-            "imageUrl": "etape7.jpg"
+          "ordre": 7,
+          "description": "Égoutter les pâtes et servir avec la sauce bolognaise et du parmesan râpé.",
+          "imageUrl": "etape7.jpg"
         }
-        ],
-        "informationNutritionnelle": {
+      ],
+      "informationNutritionnelle": {
         "calories": 520,
         "proteines": 32,
         "glucides": 58,
         "lipides": 18,
         "fibres": 4,
         "sucre": 6
-        },
-        "allergenes": ["gluten", "lait"]
+      },
+      "allergenes": ["gluten", "lait"]
     },
     {
-        "id": 2,
-        "nom": "Ragoût de Pois Chiches Marocain",
-        "slug": "ragout-pois-chiches-marocain",
-        "tags": ["ragoût", "marocain", "dîner", "sain"],
-        "origine": "Maroc",
-        "regimeAlimentaire": {
+      "id": 2,
+      "nom": "Ragoût de Pois Chiches ",
+      "slug": "ragout-pois-chiches-marocain",
+      "tags": ["ragoût", "marocain", "dîner", "sain"],
+      "origine": "Maroc",
+      "regimeAlimentaire": {
         "vegan": true,
         "vegetarien": true,
         "halal": true,
         "sansGluten": true,
         "sansLactose": true
-        },
-        "temps": {
+      },
+      "temps": {
         "preparation": 15,
         "cuisson": 30,
         "total": 45
-        },
-        "portions": 4,
-        "difficulte": "facile",
-        "imageUrl": "ragout-pois-chiches-marocain.jpg",
-        "note": 4.6,
-        "ingredients": [
+      },
+      "portions": 4,
+      "difficulte": "facile",
+      "imageUrl": "ragout-pois-chiches-marocain.jpg",
+      "note": 4.6,
+      "ingredients": [
         {
-            "id": 1,
-            "nom": "Pois chiches (en conserve)",
-            "quantite": 800,
-            "unite": "g",
-            "allergene": false
-        },
-        {
-            "id": 2,
-            "nom": "Tomates en dés (en conserve)",
-            "quantite": 400,
-            "unite": "g",
-            "allergene": false
+          "id": 1,
+          "nom": "Pois chiches (en conserve)",
+          "quantite": 800,
+          "unite": "g",
+          "allergene": false
         },
         {
-            "id": 3,
-            "nom": "Oignon",
-            "quantite": 1,
-            "unite": "grand",
-            "allergene": false
+          "id": 2,
+          "nom": "Tomates en dés (en conserve)",
+          "quantite": 400,
+          "unite": "g",
+          "allergene": false
         },
         {
-            "id": 4,
-            "nom": "Ail",
-            "quantite": 3,
-            "unite": "gousses",
-            "allergene": false
+          "id": 3,
+          "nom": "Oignon",
+          "quantite": 1,
+          "unite": "grand",
+          "allergene": false
         },
         {
-            "id": 5,
-            "nom": "Carotte",
-            "quantite": 2,
-            "unite": "moyennes",
-            "allergene": false
+          "id": 4,
+          "nom": "Ail",
+          "quantite": 3,
+          "unite": "gousses",
+          "allergene": false
         },
         {
-            "id": 6,
-            "nom": "Bouillon de légumes",
-            "quantite": 500,
-            "unite": "ml",
-            "allergene": false
+          "id": 5,
+          "nom": "Carotte",
+          "quantite": 2,
+          "unite": "moyennes",
+          "allergene": false
         },
         {
-            "id": 7,
-            "nom": "Cumin",
-            "quantite": 2,
-            "unite": "c. à café",
-            "allergene": false
+          "id": 6,
+          "nom": "Bouillon de légumes",
+          "quantite": 500,
+          "unite": "ml",
+          "allergene": false
         },
         {
-            "id": 8,
-            "nom": "Coriandre en poudre",
-            "quantite": 1,
-            "unite": "c. à café",
-            "allergene": false
+          "id": 7,
+          "nom": "Cumin",
+          "quantite": 2,
+          "unite": "c. à café",
+          "allergene": false
         },
         {
-            "id": 9,
-            "nom": "Cannelle",
-            "quantite": 0.5,
-            "unite": "c. à café",
-            "allergene": false
+          "id": 8,
+          "nom": "Coriandre en poudre",
+          "quantite": 1,
+          "unite": "c. à café",
+          "allergene": false
         },
         {
-            "id": 10,
-            "nom": "Paprika",
-            "quantite": 1,
-            "unite": "c. à café",
-            "allergene": false
+          "id": 9,
+          "nom": "Cannelle",
+          "quantite": 0.5,
+          "unite": "c. à café",
+          "allergene": false
         },
         {
-            "id": 11,
-            "nom": "Coriandre fraîche",
-            "quantite": 1,
-            "unite": "bouquet",
-            "allergene": false
+          "id": 10,
+          "nom": "Paprika",
+          "quantite": 1,
+          "unite": "c. à café",
+          "allergene": false
         },
         {
-            "id": 12,
-            "nom": "Citron",
-            "quantite": 1,
-            "unite": "entier",
-            "allergene": false
+          "id": 11,
+          "nom": "Coriandre fraîche",
+          "quantite": 1,
+          "unite": "bouquet",
+          "allergene": false
         },
         {
-            "id": 13,
-            "nom": "Huile d'olive",
-            "quantite": 2,
-            "unite": "c. à soupe",
-            "allergene": false
+          "id": 12,
+          "nom": "Citron",
+          "quantite": 1,
+          "unite": "entier",
+          "allergene": false
         },
         {
-            "id": 14,
-            "nom": "Sel",
-            "quantite": 1,
-            "unite": "c. à café",
-            "allergene": false
+          "id": 13,
+          "nom": "Huile d'olive",
+          "quantite": 2,
+          "unite": "c. à soupe",
+          "allergene": false
+        },
+        {
+          "id": 14,
+          "nom": "Sel",
+          "quantite": 1,
+          "unite": "c. à café",
+          "allergene": false
         }
-        ],
-        "ustensiles": [
+      ],
+      "ustensiles": [
         "Grande marmite",
         "Cuillère en bois",
         "Couteau",
         "Planche à découper",
         "Ouvre-boîte",
         "Cuillères à mesurer"
-        ],
-        "etapes": [
+      ],
+      "etapes": [
         {
-            "ordre": 1,
-            "description": "Faire chauffer l'huile d'olive dans une grande marmite à feu moyen.",
-            "imageUrl": "etape1_ragout.jpg"
+          "ordre": 1,
+          "description": "Faire chauffer l'huile d'olive dans une grande marmite à feu moyen.",
+          "imageUrl": "etape1_ragout.jpg"
         },
         {
-            "ordre": 2,
-            "description": "Ajouter l'oignon haché et cuire jusqu'à ce qu'il soit tendre, environ 5 minutes.",
-            "imageUrl": "etape2_ragout.jpg"
+          "ordre": 2,
+          "description": "Ajouter l'oignon haché et cuire jusqu'à ce qu'il soit tendre, environ 5 minutes.",
+          "imageUrl": "etape2_ragout.jpg"
         },
         {
-            "ordre": 3,
-            "description": "Ajouter l'ail émincé et les carottes en dés, cuire encore 2 minutes.",
-            "imageUrl": "etape3_ragout.jpg"
+          "ordre": 3,
+          "description": "Ajouter l'ail émincé et les carottes en dés, cuire encore 2 minutes.",
+          "imageUrl": "etape3_ragout.jpg"
         },
         {
-            "ordre": 4,
-            "description": "Ajouter toutes les épices (cumin, coriandre, cannelle, paprika) et remuer pendant 30 secondes jusqu'à ce qu'elles soient parfumées.",
-            "imageUrl": "etape4_ragout.jpg"
+          "ordre": 4,
+          "description": "Ajouter toutes les épices (cumin, coriandre, cannelle, paprika) et remuer pendant 30 secondes jusqu'à ce qu'elles soient parfumées.",
+          "imageUrl": "etape4_ragout.jpg"
         },
         {
-            "ordre": 5,
-            "description": "Ajouter les pois chiches égouttés, les tomates en dés et le bouillon de légumes. Porter à ébullition.",
-            "imageUrl": "etape5_ragout.jpg"
+          "ordre": 5,
+          "description": "Ajouter les pois chiches égouttés, les tomates en dés et le bouillon de légumes. Porter à ébullition.",
+          "imageUrl": "etape5_ragout.jpg"
         },
         {
-            "ordre": 6,
-            "description": "Réduire le feu et laisser mijoter pendant 20 minutes jusqu'à ce que le mélange épaississe légèrement.",
-            "imageUrl": "etape6_ragout.jpg"
+          "ordre": 6,
+          "description": "Réduire le feu et laisser mijoter pendant 20 minutes jusqu'à ce que le mélange épaississe légèrement.",
+          "imageUrl": "etape6_ragout.jpg"
         },
         {
-            "ordre": 7,
-            "description": "Ajouter du sel selon votre goût, presser le jus d'un demi-citron et incorporer la coriandre hachée.",
-            "imageUrl": "etape7_ragout.jpg"
+          "ordre": 7,
+          "description": "Ajouter du sel selon votre goût, presser le jus d'un demi-citron et incorporer la coriandre hachée.",
+          "imageUrl": "etape7_ragout.jpg"
         },
         {
-            "ordre": 8,
-            "description": "Servir chaud avec des quartiers de citron supplémentaires et de la coriandre pour la garniture.",
-            "imageUrl": "etape8_ragout.jpg"
+          "ordre": 8,
+          "description": "Servir chaud avec des quartiers de citron supplémentaires et de la coriandre pour la garniture.",
+          "imageUrl": "etape8_ragout.jpg"
         }
-        ],
-        "informationNutritionnelle": {
+      ],
+      "informationNutritionnelle": {
         "calories": 320,
         "proteines": 15,
         "glucides": 48,
         "lipides": 9,
         "fibres": 14,
         "sucre": 8
+      },
+      "allergenes": []
+    },
+    {
+        "id": 3,
+        "nom": "Tartiflette",
+        "slug": "tartiflette-francaise",
+        "tags": ["tartiflette", "française", "dîner", "traditionnel"],
+        "origine": "France",
+        "regimeAlimentaire": {
+          "vegan": false,
+          "vegetarien": false,
+          "halal": false,
+          "sansGluten": true,
+          "sansLactose": false
         },
-        "allergenes": []
-    }
-    ],
-    "utilisateurs": [
-    {
-        "id": 1,
-        "nomUtilisateur": "chefcuisinier",
-        "email": "chef@exemple.com",
-        "recettesPreferees": [1, 2],
-        "recettesCreees": [1]
-    },
-    {
-        "id": 2,
-        "nomUtilisateur": "gourmandvegan",
-        "email": "vegan@exemple.com",
-        "recettesPreferees": [2],
-        "recettesCreees": [2]
-    }
-    ],
-    "ingredients": [
-    {
-        "id": 1,
-        "nom": "Bœuf haché",
-        "categorie": "viande",
-        "allergenes": []
-    },
-    {
-        "id": 2,
-        "nom": "Spaghetti",
-        "categorie": "céréale",
-        "allergenes": ["gluten"]
-    },
-    {
-        "id": 3,
-        "nom": "Oignon",
-        "categorie": "légume",
-        "allergenes": []
-    },
-    {
-        "id": 4,
-        "nom": "Parmesan",
-        "categorie": "produit laitier",
+        "temps": {
+          "preparation": 20,
+          "cuisson": 45,
+          "total": 65
+        },
+        "portions": 4,
+        "difficulte": "moyenne",
+        "imageUrl": "tartiflette.jpg",
+        "note": 4.8,
+        "ingredients": [
+          {
+            "id": 1,
+            "nom": "Pommes de terre",
+            "quantite": 1,
+            "unite": "kg",
+            "allergene": false
+          },
+          {
+            "id": 2,
+            "nom": "Reblochon",
+            "quantite": 500,
+            "unite": "g",
+            "allergene": "lait"
+          },
+          {
+            "id": 3,
+            "nom": "Lardons",
+            "quantite": 200,
+            "unite": "g",
+            "allergene": false
+          },
+          {
+            "id": 4,
+            "nom": "Oignon",
+            "quantite": 2,
+            "unite": "moyens",
+            "allergene": false
+          },
+          {
+            "id": 5,
+            "nom": "Crème fraîche",
+            "quantite": 200,
+            "unite": "ml",
+            "allergene": "lait"
+          },
+          {
+            "id": 6,
+            "nom": "Vin blanc",
+            "quantite": 100,
+            "unite": "ml",
+            "allergene": false
+          },
+          {
+            "id": 7,
+            "nom": "Beurre",
+            "quantite": 30,
+            "unite": "g",
+            "allergene": "lait"
+          },
+          {
+            "id": 8,
+            "nom": "Sel",
+            "quantite": 1,
+            "unite": "c. à café",
+            "allergene": false
+          },
+          {
+            "id": 9,
+            "nom": "Poivre",
+            "quantite": 0.5,
+            "unite": "c. à café",
+            "allergene": false
+          }
+        ],
+        "ustensiles": [
+          "Plat à gratin",
+          "Couteau",
+          "Planche à découper",
+          "Poêle",
+          "Cuillère en bois",
+          "Four"
+        ],
+        "etapes": [
+          {
+            "ordre": 1,
+            "description": "Préchauffer le four à 200°C.",
+            "imageUrl": "etape1_tartiflette.jpg"
+          },
+          {
+            "ordre": 2,
+            "description": "Faire cuire les pommes de terre dans de l'eau bouillante salée pendant 15 minutes. Les égoutter et les laisser refroidir.",
+            "imageUrl": "etape2_tartiflette.jpg"
+          },
+          {
+            "ordre": 3,
+            "description": "Éplucher et couper les pommes de terre en rondelles.",
+            "imageUrl": "etape3_tartiflette.jpg"
+          },
+          {
+            "ordre": 4,
+            "description": "Faire fondre le beurre dans une poêle et y faire revenir les oignons hachés et les lardons jusqu'à ce qu'ils soient dorés.",
+            "imageUrl": "etape4_tartiflette.jpg"
+          },
+          {
+            "ordre": 5,
+            "description": "Ajouter les pommes de terre, le sel, le poivre et mélanger.",
+            "imageUrl": "etape5_tartiflette.jpg"
+          },
+          {
+            "ordre": 6,
+            "description": "Déglacer avec le vin blanc et laisser réduire quelques minutes.",
+            "imageUrl": "etape6_tartiflette.jpg"
+          },
+          {
+            "ordre": 7,
+            "description": "Verser le mélange dans un plat à gratin, ajouter la crème fraîche et le reblochon coupé en deux dans le sens de l'épaisseur.",
+            "imageUrl": "etape7_tartiflette.jpg"
+          },
+          {
+            "ordre": 8,
+            "description": "Enfourner pendant 20 à 25 minutes jusqu'à ce que le fromage soit fondu et doré.",
+            "imageUrl": "etape8_tartiflette.jpg"
+          }
+        ],
+        "informationNutritionnelle": {
+          "calories": 600,
+          "proteines": 25,
+          "glucides": 50,
+          "lipides": 30,
+          "fibres": 5,
+          "sucre": 4
+        },
         "allergenes": ["lait"]
+        }
+  ],
+  "utilisateurs": [
+    {
+      "id": 1,
+      "nomUtilisateur": "chefcuisinier",
+      "email": "chef@exemple.com",
+      "recettesPreferees": [1, 2],
+      "recettesCreees": [1]
     },
     {
-        "id": 5,
-        "nom": "Pois chiches",
-        "categorie": "légumineuse",
-        "allergenes": []
+      "id": 2,
+      "nomUtilisateur": "gourmandvegan",
+      "email": "vegan@exemple.com",
+      "recettesPreferees": [2],
+      "recettesCreees": [2]
     }
-    ],
-    "allergenes": [
+  ],
+  "ingredients": [
     {
-        "id": 1,
-        "nom": "gluten",
-        "description": "Présent dans le blé, l'orge, le seigle et leurs dérivés"
+      "id": 1,
+      "nom": "Bœuf haché",
+      "categorie": "viande",
+      "allergenes": []
     },
     {
-        "id": 2,
-        "nom": "lait",
-        "description": "Inclut le lait et tous les produits à base de lait"
+      "id": 2,
+      "nom": "Spaghetti",
+      "categorie": "céréale",
+      "allergenes": ["gluten"]
     },
     {
-        "id": 3,
-        "nom": "fruits à coque",
-        "description": "Inclut les noix comme les amandes, les noix, les noisettes, etc."
+      "id": 3,
+      "nom": "Oignon",
+      "categorie": "légume",
+      "allergenes": []
     },
     {
-        "id": 4,
-        "nom": "arachides",
-        "description": "Légumineuse provoquant fréquemment des réactions allergiques"
+      "id": 4,
+      "nom": "Parmesan",
+      "categorie": "produit laitier",
+      "allergenes": ["lait"]
     },
     {
-        "id": 5,
-        "nom": "crustacés",
-        "description": "Inclut les crustacés comme les crevettes, le crabe et le homard"
-    },
-    {
-        "id": 6,
-        "nom": "œufs",
-        "description": "Œufs et produits à base d'œufs"
-    },
-    {
-        "id": 7,
-        "nom": "soja",
-        "description": "Graines de soja et produits à base de soja"
-    },
-    {
-        "id": 8,
-        "nom": "poisson",
-        "description": "Tous les types de poissons à nageoires"
+      "id": 5,
+      "nom": "Pois chiches",
+      "categorie": "légumineuse",
+      "allergenes": []
     }
-    ],
-    "categories": [
+  ],
+  "allergenes": [
     {
-        "id": 1,
-        "nom": "Petit-déjeuner",
-        "description": "Repas du matin pour bien commencer la journée"
+      "id": 1,
+      "nom": "gluten",
+      "description": "Présent dans le blé, l'orge, le seigle et leurs dérivés"
     },
     {
-        "id": 2,
-        "nom": "Déjeuner",
-        "description": "Repas du midi"
+      "id": 2,
+      "nom": "lait",
+      "description": "Inclut le lait et tous les produits à base de lait"
     },
     {
-        "id": 3,
-        "nom": "Dîner",
-        "description": "Repas du soir"
+      "id": 3,
+      "nom": "fruits à coque",
+      "description": "Inclut les noix comme les amandes, les noix, les noisettes, etc."
     },
     {
-        "id": 4,
-        "nom": "Dessert",
-        "description": "Douceurs et délices après le repas"
+      "id": 4,
+      "nom": "arachides",
+      "description": "Légumineuse provoquant fréquemment des réactions allergiques"
     },
     {
-        "id": 5,
-        "nom": "En-cas",
-        "description": "Petites bouchées entre les repas"
+      "id": 5,
+      "nom": "crustacés",
+      "description": "Inclut les crustacés comme les crevettes, le crabe et le homard"
     },
     {
-        "id": 6,
-        "nom": "Entrée",
-        "description": "Plats servis avant le plat principal"
+      "id": 6,
+      "nom": "œufs",
+      "description": "Œufs et produits à base d'œufs"
+    },
+    {
+      "id": 7,
+      "nom": "soja",
+      "description": "Graines de soja et produits à base de soja"
+    },
+    {
+      "id": 8,
+      "nom": "poisson",
+      "description": "Tous les types de poissons à nageoires"
     }
-    ],
-    "commentaires": [
+  ],
+  "categories": [
     {
-        "id": 1,
-        "recetteId": 1,
-        "utilisateurId": 2,
-        "texte": "J'ai préparé ceci hier soir et c'était délicieux ! J'ai ajouté un peu de vin rouge à la sauce pour plus de saveur.",
-        "note": 5,
-        "date": "2025-02-15T18:25:43.511Z"
+      "id": 1,
+      "nom": "Petit-déjeuner",
+      "description": "Repas du matin pour bien commencer la journée"
     },
     {
-        "id": 2,
-        "recetteId": 2,
-        "utilisateurId": 1,
-        "texte": "Super recette végane ! J'ai ajouté des épinards à la fin pour plus de nutriments.",
-        "note": 4,
-        "date": "2025-02-20T14:15:22.300Z"
+      "id": 2,
+      "nom": "Déjeuner",
+      "description": "Repas du midi"
+    },
+    {
+      "id": 3,
+      "nom": "Dîner",
+      "description": "Repas du soir"
+    },
+    {
+      "id": 4,
+      "nom": "Dessert",
+      "description": "Douceurs et délices après le repas"
+    },
+    {
+      "id": 5,
+      "nom": "En-cas",
+      "description": "Petites bouchées entre les repas"
+    },
+    {
+      "id": 6,
+      "nom": "Entrée",
+      "description": "Plats servis avant le plat principal"
     }
-    ]
+  ],
+  "commentaires": [
+    {
+      "id": 1,
+      "recetteId": 1,
+      "utilisateurId": 2,
+      "texte": "J'ai préparé ceci hier soir et c'était délicieux ! J'ai ajouté un peu de vin rouge à la sauce pour plus de saveur.",
+      "note": 5,
+      "date": "2025-02-15T18:25:43.511Z"
+    },
+    {
+      "id": 2,
+      "recetteId": 2,
+      "utilisateurId": 1,
+      "texte": "Super recette végane ! J'ai ajouté des épinards à la fin pour plus de nutriments.",
+      "note": 4,
+      "date": "2025-02-20T14:15:22.300Z"
+    }
+  ]
 }
