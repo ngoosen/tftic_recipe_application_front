@@ -100,24 +100,16 @@
   border-radius: 25px;
   cursor: pointer;
   text-decoration: none;
-  transition: background-color 0.3s, tranform 0.1s;
+  transition: all .1s ease;
   width: 150px;
   font-family: Arial, Helvetica, sans-serif;
-}
 
-.card-button:active {
-  animation: click-animation 0.2s ease-in-out;
-}
+  &:active {
+    transform: scale(.95);
+  }
 
-@keyframes click-animation {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.95);
-  }
-  100% {
-    transform: scale(1);
+  &:hover {
+    background-color: #eba141;
   }
 }
 
