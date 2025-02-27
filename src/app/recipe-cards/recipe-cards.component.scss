@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Chillen", "bebas";
+  src: url("../../../public/font/Chillen.ttf"); /* Ajustez le chemin et le format si nécessaire */
+  src: url("../../../public/font/BebasNeue-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "bebas"; /* Ajustez le chemin et le format si nécessaire */
+  src: url("../../../public/font/BebasNeue-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Styles pour le conteneur principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  text-align: left;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #f7ad4c;
+  font-family: "Chillen";
+}
+
+/* Styles pour l'en-tête */
+.container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Styles pour le champ de recherche */
+.container input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #d1d1d1;
+}
+
+/* Styles pour les cartes */
+.card {
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  padding: 10px; /* Ajusté pour réduire la taille des cartes */
+  margin: 10px;
+  background-color: #fee2bd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.3s;
+  width: calc(30% - 20px); /* Réduction de la largeur des cartes */
+  display: inline-block;
+  vertical-align: top;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px; /* Hauteur minimale réduite */
+  position: relative;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #fee2bd;
+}
+
+/* Styles pour le titre des cartes */
+.card-title {
+  font-size: 22px; /* Taille de police ajustée */
+  color: #f7ad4c;
+  text-align: left;
+  font-family: "bebas";
+}
+
+/* Styles pour les images des cartes */
+.card-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Styles pour les tags des cartes */
+.card-tags {
+  margin-top: 15px;
+}
+
+.tag {
+  display: inline;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #f7ad4c;
+  font-size: 1.1em; /* Taille de police ajustée */
+  font-family: "bebas";
+}
+
+/* Styles pour les boutons des cartes */
+.button-container {
+  text-align: center; /* Centrer le conteneur du bouton */
+  width: 100%; /* Prendre toute la largeur disponible */
+  margin-top: 20px; /* Ajouter un espace entre les cartes et le bouton */
+}
+.card-button {
+  display: inline-block;
+  font-size: 1em;
+  color: #fff;
+  background-color: #f7ad4c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s, tranform 0.1s;
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-button:active {
+  animation: click-animation 0.2s ease-in-out;
+}
+
+@keyframes click-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .card {
+    width: calc(30% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .container input[type="text"] {
+    width: 90%;
+  }
+  .card {
+    width: calc(45% - 20px);
+    min-height: 250px;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .tag {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 10px;
+    min-height: 200px;
+    width: calc(80% - 20px);
+  }
+  .card-button {
+    width: 150px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .tag {
+    font-size: 0.9em;
+  }
+}
