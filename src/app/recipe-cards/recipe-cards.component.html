@@ -7,7 +7,7 @@
 <div class="container">
   <h2 class="title">Découvrez nos recettes</h2>
   <div *ngFor="let recette of recettes" class="card">
-    <img [src]="recette.imageUrl" class="card-image" />
+    <img src="img/{{ recette.imageUrl }}" class="card-image" />
     <h2 class="card-title">{{ recette.nom }}</h2>
     <div class="card-tags">
       <span class="tag">{{ recette.origine }}</span>

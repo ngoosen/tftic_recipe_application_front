@@ -5,6 +5,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "bebas"; /* Ajustez le chemin et le format si nécessaire */
+  src: url("../../../public/font/BebasNeue-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* Styles pour le conteneur principal */
 .container {
@@ -41,7 +47,7 @@
 .card {
   border: 1px solid #d1d1d1;
   border-radius: 10px;
-  padding: 15px; /* Ajusté pour réduire la taille des cartes */
+  padding: 10px; /* Ajusté pour réduire la taille des cartes */
   margin: 10px;
   background-color: #fee2bd;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -65,7 +71,7 @@
   font-size: 22px; /* Taille de police ajustée */
   color: #f7ad4c;
   text-align: left;
-  font-family: "bebasNeue-Regular";
+  font-family: "bebas";
 }
 
 /* Styles pour les images des cartes */
@@ -88,7 +94,7 @@
   background-color: #fff;
   color: #f7ad4c;
   font-size: 1.1em; /* Taille de police ajustée */
-  font-family: "bebasNeue-Regular";
+  font-family: "bebas";
 }
 
 /* Styles pour les boutons des cartes */
@@ -109,6 +115,7 @@
   text-decoration: none;
   transition: background-color 0.3s, tranform 0.1s;
   width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .card-button:active {

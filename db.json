@@ -171,7 +171,7 @@
       },
       "portions": 4,
       "difficulte": "facile",
-      "imageUrl": "ragout-pois-chiches-marocain.jpg",
+      "imageUrl": "Ragoût-de-Pois-Chiches.jpg",
       "note": 4.6,
       "ingredients": [
         {
@@ -334,152 +334,152 @@
       "allergenes": []
     },
     {
-        "id": 3,
-        "nom": "Tartiflette",
-        "slug": "tartiflette-francaise",
-        "tags": ["tartiflette", "française", "dîner", "traditionnel"],
-        "origine": "France",
-        "regimeAlimentaire": {
-          "vegan": false,
-          "vegetarien": false,
-          "halal": false,
-          "sansGluten": true,
-          "sansLactose": false
+      "id": 3,
+      "nom": "Tartiflette",
+      "slug": "tartiflette-francaise",
+      "tags": ["tartiflette", "française", "dîner", "traditionnel"],
+      "origine": "France",
+      "regimeAlimentaire": {
+        "vegan": false,
+        "vegetarien": false,
+        "halal": false,
+        "sansGluten": true,
+        "sansLactose": false
+      },
+      "temps": {
+        "preparation": 20,
+        "cuisson": 45,
+        "total": 65
+      },
+      "portions": 4,
+      "difficulte": "moyenne",
+      "imageUrl": "Tartiflette.jpg",
+      "note": 4.8,
+      "ingredients": [
+        {
+          "id": 1,
+          "nom": "Pommes de terre",
+          "quantite": 1,
+          "unite": "kg",
+          "allergene": false
         },
-        "temps": {
-          "preparation": 20,
-          "cuisson": 45,
-          "total": 65
+        {
+          "id": 2,
+          "nom": "Reblochon",
+          "quantite": 500,
+          "unite": "g",
+          "allergene": "lait"
         },
-        "portions": 4,
-        "difficulte": "moyenne",
-        "imageUrl": "tartiflette.jpg",
-        "note": 4.8,
-        "ingredients": [
-          {
-            "id": 1,
-            "nom": "Pommes de terre",
-            "quantite": 1,
-            "unite": "kg",
-            "allergene": false
-          },
-          {
-            "id": 2,
-            "nom": "Reblochon",
-            "quantite": 500,
-            "unite": "g",
-            "allergene": "lait"
-          },
-          {
-            "id": 3,
-            "nom": "Lardons",
-            "quantite": 200,
-            "unite": "g",
-            "allergene": false
-          },
-          {
-            "id": 4,
-            "nom": "Oignon",
-            "quantite": 2,
-            "unite": "moyens",
-            "allergene": false
-          },
-          {
-            "id": 5,
-            "nom": "Crème fraîche",
-            "quantite": 200,
-            "unite": "ml",
-            "allergene": "lait"
-          },
-          {
-            "id": 6,
-            "nom": "Vin blanc",
-            "quantite": 100,
-            "unite": "ml",
-            "allergene": false
-          },
-          {
-            "id": 7,
-            "nom": "Beurre",
-            "quantite": 30,
-            "unite": "g",
-            "allergene": "lait"
-          },
-          {
-            "id": 8,
-            "nom": "Sel",
-            "quantite": 1,
-            "unite": "c. à café",
-            "allergene": false
-          },
-          {
-            "id": 9,
-            "nom": "Poivre",
-            "quantite": 0.5,
-            "unite": "c. à café",
-            "allergene": false
-          }
-        ],
-        "ustensiles": [
-          "Plat à gratin",
-          "Couteau",
-          "Planche à découper",
-          "Poêle",
-          "Cuillère en bois",
-          "Four"
-        ],
-        "etapes": [
-          {
-            "ordre": 1,
-            "description": "Préchauffer le four à 200°C.",
-            "imageUrl": "etape1_tartiflette.jpg"
-          },
-          {
-            "ordre": 2,
-            "description": "Faire cuire les pommes de terre dans de l'eau bouillante salée pendant 15 minutes. Les égoutter et les laisser refroidir.",
-            "imageUrl": "etape2_tartiflette.jpg"
-          },
-          {
-            "ordre": 3,
-            "description": "Éplucher et couper les pommes de terre en rondelles.",
-            "imageUrl": "etape3_tartiflette.jpg"
-          },
-          {
-            "ordre": 4,
-            "description": "Faire fondre le beurre dans une poêle et y faire revenir les oignons hachés et les lardons jusqu'à ce qu'ils soient dorés.",
-            "imageUrl": "etape4_tartiflette.jpg"
-          },
-          {
-            "ordre": 5,
-            "description": "Ajouter les pommes de terre, le sel, le poivre et mélanger.",
-            "imageUrl": "etape5_tartiflette.jpg"
-          },
-          {
-            "ordre": 6,
-            "description": "Déglacer avec le vin blanc et laisser réduire quelques minutes.",
-            "imageUrl": "etape6_tartiflette.jpg"
-          },
-          {
-            "ordre": 7,
-            "description": "Verser le mélange dans un plat à gratin, ajouter la crème fraîche et le reblochon coupé en deux dans le sens de l'épaisseur.",
-            "imageUrl": "etape7_tartiflette.jpg"
-          },
-          {
-            "ordre": 8,
-            "description": "Enfourner pendant 20 à 25 minutes jusqu'à ce que le fromage soit fondu et doré.",
-            "imageUrl": "etape8_tartiflette.jpg"
-          }
-        ],
-        "informationNutritionnelle": {
-          "calories": 600,
-          "proteines": 25,
-          "glucides": 50,
-          "lipides": 30,
-          "fibres": 5,
-          "sucre": 4
+        {
+          "id": 3,
+          "nom": "Lardons",
+          "quantite": 200,
+          "unite": "g",
+          "allergene": false
         },
-        "allergenes": ["lait"]
+        {
+          "id": 4,
+          "nom": "Oignon",
+          "quantite": 2,
+          "unite": "moyens",
+          "allergene": false
+        },
+        {
+          "id": 5,
+          "nom": "Crème fraîche",
+          "quantite": 200,
+          "unite": "ml",
+          "allergene": "lait"
+        },
+        {
+          "id": 6,
+          "nom": "Vin blanc",
+          "quantite": 100,
+          "unite": "ml",
+          "allergene": false
+        },
+        {
+          "id": 7,
+          "nom": "Beurre",
+          "quantite": 30,
+          "unite": "g",
+          "allergene": "lait"
+        },
+        {
+          "id": 8,
+          "nom": "Sel",
+          "quantite": 1,
+          "unite": "c. à café",
+          "allergene": false
+        },
+        {
+          "id": 9,
+          "nom": "Poivre",
+          "quantite": 0.5,
+          "unite": "c. à café",
+          "allergene": false
         }
+      ],
+      "ustensiles": [
+        "Plat à gratin",
+        "Couteau",
+        "Planche à découper",
+        "Poêle",
+        "Cuillère en bois",
+        "Four"
+      ],
+      "etapes": [
+        {
+          "ordre": 1,
+          "description": "Préchauffer le four à 200°C.",
+          "imageUrl": "etape1_tartiflette.jpg"
+        },
+        {
+          "ordre": 2,
+          "description": "Faire cuire les pommes de terre dans de l'eau bouillante salée pendant 15 minutes. Les égoutter et les laisser refroidir.",
+          "imageUrl": "etape2_tartiflette.jpg"
+        },
+        {
+          "ordre": 3,
+          "description": "Éplucher et couper les pommes de terre en rondelles.",
+          "imageUrl": "etape3_tartiflette.jpg"
+        },
+        {
+          "ordre": 4,
+          "description": "Faire fondre le beurre dans une poêle et y faire revenir les oignons hachés et les lardons jusqu'à ce qu'ils soient dorés.",
+          "imageUrl": "etape4_tartiflette.jpg"
+        },
+        {
+          "ordre": 5,
+          "description": "Ajouter les pommes de terre, le sel, le poivre et mélanger.",
+          "imageUrl": "etape5_tartiflette.jpg"
+        },
+        {
+          "ordre": 6,
+          "description": "Déglacer avec le vin blanc et laisser réduire quelques minutes.",
+          "imageUrl": "etape6_tartiflette.jpg"
+        },
+        {
+          "ordre": 7,
+          "description": "Verser le mélange dans un plat à gratin, ajouter la crème fraîche et le reblochon coupé en deux dans le sens de l'épaisseur.",
+          "imageUrl": "etape7_tartiflette.jpg"
+        },
+        {
+          "ordre": 8,
+          "description": "Enfourner pendant 20 à 25 minutes jusqu'à ce que le fromage soit fondu et doré.",
+          "imageUrl": "etape8_tartiflette.jpg"
+        }
+      ],
+      "informationNutritionnelle": {
+        "calories": 600,
+        "proteines": 25,
+        "glucides": 50,
+        "lipides": 30,
+        "fibres": 5,
+        "sucre": 4
+      },
+      "allergenes": ["lait"]
+    }
   ],
   "utilisateurs": [
     {
