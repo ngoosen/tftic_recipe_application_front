@@ -12,10 +12,12 @@ import {
   UserCheck,
   Search,
 } from 'lucide-angular';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 ;
 
 @NgModule({
-  declarations: [AppComponent, SearchBarComponent],
+  declarations: [AppComponent, SearchBarComponent, FooterComponent, HeaderComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
