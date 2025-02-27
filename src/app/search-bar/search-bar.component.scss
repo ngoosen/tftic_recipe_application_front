@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  // margin-top: 150px;
   background-image: url("../../../public/img/image.jfif");
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,8 +44,9 @@ span {
 input {
   border-radius: 25px;
   margin-bottom: 0;
-  padding: 3px;
+  padding: 5px 10px;
   width: 350px;
+  border-style: solid;
 }
 
 button {
@@ -56,37 +56,21 @@ button {
   margin-left: 10px;
   padding: 2px;
   cursor: pointer;
-  width: 25px;
-  height: 25px;
-}
-.button-click {
-  transition: transform 0.1s ease-in-out;
-}
-
-.button-click:active {
-  transform: scale(0.95);
-}
-@keyframes click-animation {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.95);
-  }
-  100% {
-    transform: scale(1);
-  }
+  width: 30px;
+  height: 30px;
 }
 
 .button-click {
-  animation: click-animation 0.2s ease-in-out;
+  transition: all .2s;
+
+  &:active {
+    transform: scale(0.9);
+  }
 }
 
 lucide-icon {
   color: white;
   size: 64;
-  // height: 5px;
-  // width: 5px;
 }
 
 /* Media queries */
