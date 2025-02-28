@@ -1,0 +1,11 @@
+{
+    "/api/recettes": "/recettes",
+    "/api/recettes/:id": "/recettes/:id",
+    "/api/recettes/search/:term": "/recettes?nom_like=:term",
+    "/api/recettes/filter/:field/:value": "/recettes?:field=:value",
+    "/api/utilisateurs": "/utilisateurs",
+    "/api/utilisateurs/:id": "/utilisateurs/:id",
+    "/api/categories": "/categories",
+    "/api/commentaires": "/commentaires",
+    "/api/commentaires/recipe/:recetteId": "/commentaires?recetteId=:recetteId"
+}
