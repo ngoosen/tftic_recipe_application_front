@@ -1,4 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Chillen";
+  src: url("../public/font/Chillen.ttf"); /* Ajustez le chemin et le format si nécessaire */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "bebas"; /* Ajustez le chemin et le format si nécessaire */
+  src: url("../public/font/BebasNeue-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
 }

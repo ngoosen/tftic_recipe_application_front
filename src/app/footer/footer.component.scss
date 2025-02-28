@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'Chillen';
-    src: url('../../../public/font/Chillen.ttf');
-}
-
 #name {
     font-family: "Chillen";
     font-weight: 400;
@@ -10,25 +5,36 @@
 }
 
 .footer {
-    background-color: #fee2bd;
     display: flex;
-    margin-top: auto;
+    justify-content: space-between;
+    align-content: center;
+
+    padding: 50px;
+
+    background-color: #fee2bd;
     color: #f7ad4c;
 }
 
+.title {
+  display: flex;
+  align-items: center;
+}
+
 .listeFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
     list-style: none;
-    margin-left: auto;
-    margin-right: 40px;
-    margin-top: 2.6%;
-    margin-bottom: 1%;
+
+    button:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
 }
 
 .foodCornerFooter {
     font-size: 60px;
-    margin-right: 10%;
-    margin-left: 5%;
-    margin-top: 3.5%;
 }
 
 .listeFooterButton {
@@ -36,4 +42,23 @@
     font-size: 20px;
     border-style: none;
     background-color: transparent;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+
+  div {
+    width: 50px;
+    height: 50px;
+
+    background-color: #ffffff;
+    border-radius: 50px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }

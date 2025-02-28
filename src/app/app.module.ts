@@ -13,9 +13,10 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { RecipeCardsComponent } from './recipe-cards/recipe-cards.component';
 import { RecipeCardsService } from './recipe-cards/recipe-cards.service';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, SearchBarComponent, FooterComponent, HeaderComponent, RecipeCardsComponent],
+  declarations: [AppComponent, SearchBarComponent, FooterComponent, HeaderComponent, RecipeCardsComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
