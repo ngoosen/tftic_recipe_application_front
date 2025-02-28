@@ -2,39 +2,40 @@
     font-family: "Chillen";
     font-weight: 400;
     font-style: normal;
+    font-size: 50px;
 }
 
 .header {
+    display: flex;
+    align-items: center;
     background-color: white;
     display: flex;
-}
+  }
 
-.logSignIn {
+  .logSignIn {
     margin-left: auto;
     margin-right: 2%;
-    display: flex;
     margin-bottom: 2px;
-}
+  }
 
-.logSignIn2 {
+  .logSignIn2 {
     margin-right: 2%;
-    display: flex;
-}
+  }
 
-.logIn {
+  .logIn {
     border-style: none;
     background-color: #f7ad4c;
     color: white;
-    border-radius: 8px;
+    border-radius: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 10px 10px;
-    justify-content: center;
-    line-height: 0px;
-    
+    padding: 5px 20px;
+    font-size: 18px;
+    transition: all .1s;
+
     &:hover {
-        background-color: #fee2bd;
-        color: rgb(0, 0, 0);
+      background-color: #e79f3f;
+      cursor: pointer;
     }
 }
 
@@ -44,12 +45,12 @@
     color: rgb(247, 173, 76);
     margin-top: 20%;
     margin-bottom: 20%;
-    // padding: 10px 10px;
-    // height: 3px;
+    font-size: 18px;
 
     &:hover {
-        color: rgb(247, 173, 76);
-        // border-bottom: 1px solid #f7ad4c ;
+      color: rgb(247, 173, 76);
+      cursor: pointer;
+      text-decoration: underline;
     }
 }
 
